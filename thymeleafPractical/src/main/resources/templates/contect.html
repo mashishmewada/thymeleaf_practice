@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+	th:replace="base::layout(~{::section})">
+<head>
+<meta charset="UTF-8" />
+<title>Document</title>
+</head>
+<body>
+
+	<section>
+
+		<h1>@Qualifier annotation</h1>
+
+		<p>This annotation is used along with @Autowired annotation. When
+			you need more control of the dependency injection process, @Qualifier
+			can be used. @Qualifier can be specified on individual constructor
+			arguments or method parameters. This annotation is used to avoid
+			confusion which occurs when you create more than one bean of the same
+			type and want to wire only one of them with a property.</p>
+
+	</section>
+
+</body>
+</html>

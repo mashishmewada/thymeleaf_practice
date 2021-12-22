@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8" />
+<title>Example</title>
+<link rel="stylesheet" th:href="@{/css/mystyle.css}" />
+
+</head>
+<body>
+	<div class="container">
+		
+		<img src="" class="profile" th:src="@{/images/profile.jpg}" alt="" />
+	
+		<h1>Adding CSS, JavaScript and Image using thymeleaf</h1>
+		<p>Div class "container" hasn’t a special meaning but container is
+			just a well chosen name. You can replace with any other name if we
+			don't talk about Bootstrap. In CSS Bootstrap is already implemented.</p>
+	</div>
+</body>
+<script src="" th:src="@{js/myjs.js}"></script>
+</html>
